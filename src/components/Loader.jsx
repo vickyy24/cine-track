@@ -18,9 +18,9 @@ function Loader() {
                     Loading your movie collection...
                 </p>
 
-                <div className="mt-8 h-2 w-64 overflow-hidden rounded-full bg-[#16324F]">
+                {/* <div className="mt-8 h-2 w-64 overflow-hidden rounded-full bg-[#16324F]">
                     <div className="h-full w-full animate-pulse rounded-full bg-[#01B4E4]"></div>
-                </div>
+                </div> */}
             </div>
         </section>
     );
