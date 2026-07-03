@@ -34,18 +34,33 @@ https://cine-track-omega.vercel.app/
 
 ---
 
-## Folder Structure
+## Project Structure
 
-```text
-cine-track
-├── public
-├── src
-│   ├── components
-│   ├── data
-│   ├── pages
+```
+cine-track/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── FilterBar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Loader.jsx
+│   │   ├── MovieCard.jsx
+│   │   ├── MovieForm.jsx
+│   │   ├── Navbar.jsx
+│   │   └── SearchBar.jsx
+│   │
+│   ├── data/
+│   │   └── movies.js
+│   │
+│   ├── pages/
+│   │   └── Home.jsx
+│   │
 │   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
+│   ├── index.css
+│   └── main.jsx
+│
 ├── package.json
 ├── vite.config.js
 └── README.md
