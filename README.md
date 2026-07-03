@@ -1,29 +1,23 @@
 # CineTrack
 
-CineTrack is a responsive Movie Watchlist application built with React.js and Tailwind CSS. It allows users to manage their personal movie collection by adding movies, searching by title, filtering based on watch status, and marking movies as watched or unwatched. Movie data is persisted using the browser's localStorage.
+CineTrack is a modern and responsive movie watchlist application built with React.js and Tailwind CSS. It enables users to manage their personal movie collection by adding movies, searching by title, filtering based on watch status, and tracking watched movies. The application uses browser localStorage to persist data across sessions.
 
 ## Live Demo
 
 https://cine-track-omega.vercel.app/
 
-## GitHub Repository
-
-https://github.com/vickyy24/cine-track
-
 ---
 
 ## Features
 
-- Add new movies to the watchlist
-- Toggle movie status between Watched and Unwatched
+- Add new movies to your watchlist
+- Toggle movies between Watched and Unwatched
 - Search movies by title
-- Filter movies by:
-  - All Movies
-  - Watched
-  - Unwatched
+- Filter movies by watch status
+- Client-side form validation
 - Loading spinner during initial application load
-- Responsive design for Mobile, Tablet, and Desktop
-- Data persistence using localStorage
+- Persistent data using localStorage
+- Fully responsive layout for mobile, tablet, and desktop devices
 - Clean and modern user interface
 
 ---
@@ -33,40 +27,25 @@ https://github.com/vickyy24/cine-track
 - React.js
 - Vite
 - Tailwind CSS
-- React Icons
 - JavaScript (ES6+)
+- React Icons
 - HTML5
 - CSS3
 
 ---
 
-## Project Structure
+## Folder Structure
 
-```
-cine-track/
-│
-├── public/
-│
-├── src/
-│   ├── components/
-│   │   ├── FilterBar.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Loader.jsx
-│   │   ├── MovieCard.jsx
-│   │   ├── MovieForm.jsx
-│   │   ├── Navbar.jsx
-│   │   └── SearchBar.jsx
-│   │
-│   ├── data/
-│   │   └── movies.js
-│   │
-│   ├── pages/
-│   │   └── Home.jsx
-│   │
+```text
+cine-track
+├── public
+├── src
+│   ├── components
+│   ├── data
+│   ├── pages
 │   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-│
+│   ├── main.jsx
+│   └── index.css
 ├── package.json
 ├── vite.config.js
 └── README.md
@@ -74,27 +53,27 @@ cine-track/
 
 ---
 
-## Installation
+## Getting Started
 
-Clone the repository.
+### Clone the Repository
 
 ```bash
-git clone https://github.com/vickyy24/cine-track.git
+git clone <repository-url>
 ```
 
-Navigate to the project directory.
+### Navigate to the Project
 
 ```bash
 cd cine-track
 ```
 
-Install dependencies.
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server.
+### Run the Development Server
 
 ```bash
 npm run dev
@@ -108,15 +87,15 @@ http://localhost:5173
 
 ---
 
-## Production Build
+## Build for Production
 
-Generate the production build.
+Generate an optimized production build.
 
 ```bash
 npm run build
 ```
 
-Preview the production build.
+Preview the production build locally.
 
 ```bash
 npm run preview
@@ -124,35 +103,27 @@ npm run preview
 
 ---
 
-## Assignment Requirements Covered
+## Screenshots
 
-- Responsive Movie Dashboard
+> Add screenshots of the application here.
+
+- Home Page
 - Add Movie Form
-- Search Functionality
-- Status Filter
-- Toggle Watch Status
-- Loading State
-- Local Storage Persistence
-- GitHub Repository
-- Live Deployment on Vercel
+- Mobile View
 
 ---
 
-## Future Improvements
+## Future Enhancements
 
-- Edit Movie Details
-- Movie Ratings
-- Movie Reviews
-- Movie Categories
-- API Integration with TMDB
-- Pagination
-- Sorting Options
-- Dark/Light Theme
+- Movie ratings and reviews
+- Edit existing movies
+- Sorting by title and release year
+- Integration with TMDB API
+- User authentication
+- Favorites and collections
 
 ---
 
 ## Author
 
 **Vikas Sontakke**
-
-GitHub: https://github.com/vickyy24
