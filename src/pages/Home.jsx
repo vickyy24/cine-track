@@ -20,26 +20,26 @@ function Home() {
     const [isAddMovieFormOpen, setIsAddMovieFormOpen] = useState(false);
 
     useEffect(() => {
-    const storedMovies = localStorage.getItem("cineTrackMovies");
+        const storedMovies = localStorage.getItem("cineTrackMovies");
 
-    if (storedMovies) {
-        const localMovies = JSON.parse(storedMovies);
+        if (storedMovies) {
+            const localMovies = JSON.parse(storedMovies);
 
-        if (localMovies.length === 0) {
-            setMovieList(movies);
+            if (localMovies.length === 0) {
+                setMovieList(movies);
+            } else {
+                setMovieList(localMovies);
+            }
         } else {
-            setMovieList(localMovies);
+            setMovieList(movies);
         }
-    } else {
-        setMovieList(movies);
-    }
 
-    const timer = setTimeout(() => {
-        setLoading(false);
-    }, 800);
+        const timer = setTimeout(() => {
+            setLoading(false);
+        }, 800);
 
-    return () => clearTimeout(timer);
-}, []);
+        return () => clearTimeout(timer);
+    }, []);
 
     useEffect(() => {
         localStorage.setItem(

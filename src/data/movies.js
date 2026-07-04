@@ -4,7 +4,7 @@ const movies = [
         title: "Drishyam",
         genre: "Thriller",
         year: 2015,
-        poster: "https://image.tmdb.org/t/p/w500/eDlqPslH2TdPTh5f0qL4J5C5qNf.jpg",
+        poster: "https://image.tmdb.org/t/p/w500/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
         watched: false,
     },
     {
@@ -12,7 +12,7 @@ const movies = [
         title: "Jailer",
         genre: "Drama",
         year: 2015,
-        poster: "https://image.tmdb.org/t/p/w500/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+        poster: "https://image.tmdb.org/t/p/original/p933oBZpchdX8KA29gPVKBxGlyU.jpg",
         watched: true,
     },
     {
@@ -20,7 +20,7 @@ const movies = [
         title: "Vikram",
         genre: "Drama",
         year: 2016,
-        poster: "https://image.tmdb.org/t/p/w500/p2lVAcPuRPSO8Al6hDDGw1gUjrn.jpg",
+        poster: "https://image.tmdb.org/t/p/original/774UV1aCURb4s4JfEFg3IEMu5Zj.jpg",
         watched: false,
     },
     {
@@ -28,7 +28,7 @@ const movies = [
         title: "Sultan",
         genre: "Drama",
         year: 2016,
-        poster: "https://image.tmdb.org/t/p/w500/oC9V4G6s4LhM5Y6rM5M2Q5V2s2.jpg",
+        poster: "https://image.tmdb.org/t/p/original/vPTYtKuV8X5uUd3SqnzO14W6Dti.jpg",
         watched: true,
     },
     {
@@ -44,7 +44,7 @@ const movies = [
         title: "Padmaavat",
         genre: "History",
         year: 2018,
-        poster: "https://image.tmdb.org/t/p/w500/u9SmQ9Vx4N9Q3L5M4V6vV8m2d7.jpg",
+        poster: "https://image.tmdb.org/t/p/w220_and_h330_face/5kk71s8Vmvt8XQOojevhTA5QcB0.jpg",
         watched: true,
     },
     {
@@ -92,7 +92,7 @@ const movies = [
         title: "Pushpa: The Rise",
         genre: "Action",
         year: 2021,
-        poster: "https://image.tmdb.org/t/p/w500/uLQ7R4J8N5M2H9Q6P8D5K2A4M.jpg",
+        poster: "https://image.tmdb.org/t/p/w220_and_h330_face/5kk71s8Vmvt8XQOojevhTA5QcB0.jpg",
         watched: false,
     },
     {
