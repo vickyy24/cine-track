@@ -52,7 +52,7 @@ const movies = [
         title: "Andhadhun",
         genre: "Crime",
         year: 2018,
-        poster: "https://image.tmdb.org/t/p/w500/rR2J2Z5iL5J7n4Q6o2H5d9m9f9.jpg",
+        poster: "https://image.tmdb.org/t/p/w1280/dy3K6hNvwE05siGgiLJcEiwgpdO.jpg",
         watched: false,
     },
     {
@@ -60,7 +60,7 @@ const movies = [
         title: "Article 15",
         genre: "Crime",
         year: 2019,
-        poster: "https://image.tmdb.org/t/p/w500/jmN8j5QjN2o6b2dL7Q5bL6M6cL.jpg",
+        poster: "https://image.tmdb.org/t/p/w1280/egknEWNt2B0slG2OC0gSpLZdVHj.jpg",
         watched: false,
     },
     {
@@ -68,7 +68,7 @@ const movies = [
         title: "Tanhaji",
         genre: "History",
         year: 2020,
-        poster: "https://image.tmdb.org/t/p/w500/kmM6A6H8R4M7Q8P5V6M2R5A8K9.jpg",
+        poster: "https://image.tmdb.org/t/p/w1280/fZhgcUVwV7ocglL5XDq4ygsfXqD.jpg",
         watched: true,
     },
     {
@@ -76,7 +76,7 @@ const movies = [
         title: "Soorarai Pottru",
         genre: "Drama",
         year: 2020,
-        poster: "https://image.tmdb.org/t/p/w500/lZ9h5Q8P4G7R2H6N8P5K7M3A2.jpg",
+        poster: "https://image.tmdb.org/t/p/w1280/5uimlxPCgAei8JfQUDFEUQLoyyh.jpg",
         watched: false,
     },
     {
@@ -84,7 +84,7 @@ const movies = [
         title: "Shershaah",
         genre: "War",
         year: 2021,
-        poster: "https://image.tmdb.org/t/p/w500/qVh6N5P2L9M4H8A7K6V2D8Q5B.jpg",
+        poster: "https://image.tmdb.org/t/p/w1280/zGvFnwoXJKrYnKhoVPytqkqCJ8V.jpg",
         watched: true,
     },
     {
@@ -92,7 +92,7 @@ const movies = [
         title: "Pushpa: The Rise",
         genre: "Action",
         year: 2021,
-        poster: "https://image.tmdb.org/t/p/w220_and_h330_face/5kk71s8Vmvt8XQOojevhTA5QcB0.jpg",
+        poster: "https://image.tmdb.org/t/p/original/oREgJZwtdtPAPZ0gCdP73s9H4iU.jpg",
         watched: false,
     },
     {
@@ -100,7 +100,7 @@ const movies = [
         title: "RRR",
         genre: "Action",
         year: 2022,
-        poster: "https://image.tmdb.org/t/p/w500/lh0hK3qxyK9pRuyQ2QwKgQ5M6bM.jpg",
+        poster: "https://image.tmdb.org/t/p/w1280/u0XUBNQWlOvrh0Gd97ARGpIkL0.jpg",
         watched: true,
     },
     {
@@ -108,7 +108,7 @@ const movies = [
         title: "Kantara",
         genre: "Action",
         year: 2022,
-        poster: "https://image.tmdb.org/t/p/w500/uOHW4d2bhvM4SLm5N0JYQq7wG4x.jpg",
+        poster: "https://image.tmdb.org/t/p/w1280/jIsKmkxMzdCZ0Ux1GVSnu8m6Na6.jpg",
         watched: false,
     },
     {
@@ -116,7 +116,7 @@ const movies = [
         title: "Drishyam 2",
         genre: "Thriller",
         year: 2022,
-        poster: "https://image.tmdb.org/t/p/w500/rn8YfD5P8Q7M6L2H5A4N8Q2B5.jpg",
+        poster: "https://image.tmdb.org/t/p/w1280/wk8Vu0DI0MiNLaXXiVqAwjLRKL5.jpg",
         watched: true,
     },
     {
@@ -132,15 +132,15 @@ const movies = [
         title: "Animal",
         genre: "Action",
         year: 2023,
-        poster: "https://image.tmdb.org/t/p/w500/pD6sL4vntUOXHmuvJPPZAgvyfd9.jpg",
+        poster: "https://image.tmdb.org/t/p/w1280/hr9rjR3J0xBBKmlJ4n3gHId9ccx.jpg",
         watched: false,
     },
     {
         id: 18,
-        title: "Fighter",
+        title: "Dhurandhar: The Revenge",
         genre: "Action",
-        year: 2024,
-        poster: "https://image.tmdb.org/t/p/w500/qY1t5B7pQ46JQ4Q8Q5h8S5gQ4.jpg",
+        year: 2026,
+        poster: "https://image.tmdb.org/t/p/w1280/ptTwQES14pr5c3aZvJg56YlYgb1.jpg",
         watched: true,
     },
     {
@@ -148,7 +148,7 @@ const movies = [
         title: "Kalki 2898 AD",
         genre: "Science Fiction",
         year: 2024,
-        poster: "https://image.tmdb.org/t/p/w500/sm3E1l8RK6Tj8meJkZVnQ3Q6XhM.jpg",
+        poster: "https://image.tmdb.org/t/p/w1280/rstcAnBeCkxNQjNp3YXrF6IP1tW.jpg",
         watched: false,
     },
     {
@@ -156,7 +156,7 @@ const movies = [
         title: "Chhaava",
         genre: "Historical",
         year: 2025,
-        poster: "https://image.tmdb.org/t/p/w500/7J4H0P5L9K8M3A6Q2V8N5R4D6.jpg",
+        poster: "https://image.tmdb.org/t/p/w1280/ubRsrzb6NRW8YhVTJ6jG1kpNvCi.jpg",
         watched: false,
     },
 ];
